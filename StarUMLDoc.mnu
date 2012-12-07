@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<ADDINMENU addInID="StarUMLDoc">
+    <BODY>
+        <MAINMENU>
+            <MAINITEM base="NEW_TOP" index="6" caption="Browse">
+						  <MAINITEM caption="Generate Generic Documentation" script="src\GenerateGenericDocumentation.js"/>
+							<MAINITEM caption="Generate Package Documentation" script="src\GeneratePackageDocumentation.js"/>
+							<MAINITEM caption="Generate Class Documentation" script="src\GenerateClassDocumentation.js"/>
+							<MAINITEM caption="Generate Association Documentation" script="src\GenerateAssociationDocumentation.js"/>
+							<MAINITEM caption="Generate Indexes" script="src\GenerateIndexes.js"/>
+						</MAINITEM>
+        </MAINMENU>
+    </BODY>
+</ADDINMENU>
